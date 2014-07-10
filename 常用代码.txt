@@ -1,0 +1,50 @@
+http://www.wpxap.com/forum.php?mod=viewthread&tid=402199
+ xmlns:GoogleAds="clr-namespace:GoogleAds;assembly=GoogleAds"
+
+  <phone:PhoneApplicationPage.ApplicationBar>
+        <shell:ApplicationBar>
+
+        
+            <shell:ApplicationBarIconButton Text="自定义背景" IconUri="/Assets/AppBar/appbar.edit.rest.png" Click="ApplicationBarIconButton_Click_1" IsEnabled="True"></shell:ApplicationBarIconButton>
+        </shell:ApplicationBar>
+    </phone:PhoneApplicationPage.ApplicationBar>
+ <GoogleAds:AdView AdUnitID="a1535f898fab8e8"     Format="Banner"/>
+
+  <GoogleAds:AdView AdUnitID="a1535f898fab8e8"  Grid.Row="1"   Format="Banner"/>
+  <Grid.RowDefinitions>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="100"></RowDefinition>
+            </Grid.RowDefinitions>
+http://www.cnwest.com/rss/
+你可以使用此链接指向 Windows 应用商店和 Windows 应用商店网站上的应用详细信息:
+http://apps.microsoft.com/windows/app/0fb2a0cf-5cb6-4014-ba07-9434848c800f
+链接到应用商店
+http://www.windowsphone.com/s?appid=7c4f659e-c5f5-42f7-b726-179f3117b4ba
+http://www.windowsphone.com/s?appid=9d6c674a-6809-4208-b47f-4eb76bec26e4
+http://www.windowsphone.com/s?appid=5054691f-90a3-40a6-8f8f-a02e60e8c6bd
+xmlns:GoogleAds="clr-namespace:GoogleAds;assembly=GoogleAds"
+  <Grid.RowDefinitions>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="100"></RowDefinition>
+            </Grid.RowDefinitions>
+  <GoogleAds:AdView AdUnitID="ca-app-pub-1598808565430684/4345555652"    Format="Banner"/>
+
+http://www.weather.com.cn/alarm/newalarmlist.shtml
+rssdataprovier
+ return rssReader.LoadFeed(doc).Take(30);
+
+SplashScreenImage.jpg
+
+interstitialAd = new InterstitialAd("ca-app-pub-1598808565430684/3320990854");
+            // NOTE: You can edit the event handler to do something custom here. Once the
+            // interstitial is received it can be shown whenever you want.
+            interstitialAd.ReceivedAd += OnAdReceived;
+           
+            AdRequest adRequest = new AdRequest();
+            adRequest.ForceTesting = false;
+            interstitialAd.LoadAd(adRequest);
+     private InterstitialAd interstitialAd;
+  private void OnAdReceived(object sender, AdEventArgs e)
+        {
+            interstitialAd.ShowAd();
+        }
